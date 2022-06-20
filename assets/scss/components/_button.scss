@@ -1,0 +1,31 @@
+/* === Buttons === */
+.button {
+    display: inline-block;
+    border-radius: 3rem;
+    font-weight: var(--font-semibold);
+    transition: .3s;
+    cursor: pointer;
+    outline: none;
+    padding: .75rem 1.5rem;
+    white-space: nowrap;
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--white-color);
+
+    &:hover {
+        background-color: #06ad89;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+
+    &__navbar {
+        display: none;
+
+        @media screen and (min-width: 968px) {
+            display: block;
+        }
+    }
+
+}

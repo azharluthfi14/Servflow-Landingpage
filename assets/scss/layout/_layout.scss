@@ -1,0 +1,42 @@
+.container {
+    max-width: 968px;
+    margin-left: var(--m-1-5);
+    margin-right: var(--m-1-5);
+
+    @media screen and (min-width: 1024px) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.grid {
+    display: grid;
+    gap: var(--m-1-5);
+}
+
+.section {
+    padding: 4.5rem 1rem;
+
+    &__title,
+    &__title-center {
+        text-align: center;
+        color: var(--title-color);
+        font-size: 2rem;
+        margin-bottom: var(--m-1);
+    }
+}
+
+.svg {
+    &__color {
+        fill: var(--primary-color);
+    }
+
+    &__blob {
+        fill: var(--secondary-color);
+    }
+
+    &__img {
+        width: 300px;
+        justify-self: center;
+    }
+}

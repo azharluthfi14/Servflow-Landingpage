@@ -1,0 +1,31 @@
+/* ===== Font Setup ============= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+    --header-height: 3.5rem;
+
+    // ==== Color Settings ====
+    --primary-color: #02C39A;
+    --secondary-color: #f78104;
+    --dark-color: #0f172a;
+    --gray-color: #64748b;
+    --white-color: #ffffff;
+
+    --title-color: var(--dark-color);
+    --text-color: var(--dark-color);
+
+    // ==== Font Settings ====
+    --body-font: "Poppins", sans-serif;
+
+    --text-base-size: 1rem;
+    --text-small-size: 0.75rem;
+
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    /* ==== Space Settings ==== */
+    --m-1: 1rem;
+    --m-1-5: 1.5rem;
+    --m-2: 2rem;
+
+}
