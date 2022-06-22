@@ -24,6 +24,10 @@
         font-size: 2rem;
         margin-bottom: var(--m-1);
     }
+
+    @media screen and (max-width: 360px) {
+        padding: 3.5rem 0 1rem;
+    }
 }
 
 .svg {
@@ -38,5 +42,9 @@
     &__img {
         width: 300px;
         justify-self: center;
+
+        @media screen and (min-width: 576px) {
+            width: 100%;
+        }
     }
 }

@@ -1,0 +1,29 @@
+.hero {
+
+    &__container {
+        row-gap: 3rem;
+
+        @media screen and (min-width: 576px) {
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+        }
+    }
+
+    &__title {
+        font-size: 3rem;
+        font-weight: var(--font-bold);
+        margin-bottom: var(--m-1-5);
+    }
+
+    &__description {
+        margin-bottom: var(--m-2);
+    }
+
+
+
+    @media screen and (min-width: 1024px) {
+        &__image {
+            width: 540px;
+        }
+    }
+}
